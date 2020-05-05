@@ -1,21 +1,6 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-"""
-sentry-Dingtalk
-==============
-
-An extension for Sentry which integrates with Dingtalk. It will send
-notifications to dingtalk robot.
-
-:copyright: (c) 2017 by guoyong yi, see AUTHORS for more details.
-:license: BSD, see LICENSE for more details.
-"""
 from setuptools import setup, find_packages
 
-# See http://stackoverflow.com/questions/9352656/python-assertionerror-when-running-nose-tests-with-coverage
-# for why we need to do this.
 from multiprocessing import util
-
 
 tests_require = [
 ]
@@ -25,13 +10,13 @@ install_requires = [
 ]
 
 setup(
-    name='sentry-dingtalk',
-    version='1.1.3',
+    name='sentry-dingtalk-lz',
+    version='1.0.0',
     author='leon zhang',
     author_email='leonzhang2008@gmail.com',
     url='https://github.com/leonzhang2008/sentry-dingtalk.git',
     description='A Sentry extension which integrates with Dinttalk robot.',
-    long_description=__doc__,
+    long_description='A Sentry extension which integrates with Dinttalk robot.',
     license='BSD',
     packages=find_packages(exclude=['tests']),
     zip_safe=False,
