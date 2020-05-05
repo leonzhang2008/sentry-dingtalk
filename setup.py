@@ -27,9 +27,9 @@ install_requires = [
 setup(
     name='sentry-dingtalk',
     version='1.1.3',
-    author='guoyong yi',
-    author_email='guoyongyi11@gmail.com',
-    url='https://github.com/gzhappysky/sentry-dingtalk',
+    author='leon zhang',
+    author_email='leonzhang2008@gmail.com',
+    url='https://github.com/leonzhang2008/sentry-dingtalk.git',
     description='A Sentry extension which integrates with Dinttalk robot.',
     long_description=__doc__,
     license='BSD',

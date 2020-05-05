@@ -111,7 +111,7 @@ class DingtalkPlugin(notify.NotificationPlugin):
         url = self.get_webhook_urls(group.project)
         link = self.get_group_url(group)
         message_format = '[%s] %s   %s'
-        message = message_format % (event.server_name, event.message, link)
+        message = message_format % (event.event_id, event.message, link)
         data = {"msgtype": "text",
                     "text": {
                         "content": message
